@@ -32,7 +32,7 @@ if __name__ == "__main__":
         ("review_scraper.py", "Review Collection"),
         ("news_scraper.py", "News Collection"),
         ("merge_data.py", "Data Merging"),
-        ("analysis_using_ollama.py", "Multi-Model Analysis")
+        ("analysis_using_llms.py", "Multi-Model Analysis")
     ]
     
     results = {}
