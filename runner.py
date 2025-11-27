@@ -29,10 +29,10 @@ if __name__ == "__main__":
     print("=" * 70)
     
     scripts = [
-        ("review_scraper.py", "Review Collection"),
-        ("news_scraper.py", "News Collection"),
-        ("merge_data.py", "Data Merging"),
-        ("analysis_using_ollama.py", "Multi-Model Analysis")
+        ("scrapers/review_scraper.py", "Review Collection"),
+        ("scrapers/news_scraper.py", "News Collection"),
+        ("scrapers/merge_data.py", "Data Merging"),
+        ("analysis/analysis_using_llms.py", "Multi-Model Analysis")
     ]
     
     results = {}
